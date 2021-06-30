@@ -1,0 +1,137 @@
+/*header
+*/
+.header{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 70px;
+    line-height: 70px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0%;
+    z-index: 999;
+
+}
+.header .header-logo{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 30px;
+    position: auto;
+}
+
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a {
+margin-right: 15px;
+color: #ffffff;
+} 
+.header .header-menu a:hover{
+    color: #3498db;
+}
+/*banner
+*/
+.banner{
+    margin-top: -20px;
+}
+.banner .banner-image{
+    position: relative;
+}
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+}
+
+.title{
+    color: #ffffff;
+}
+.subtitle{
+    color: #ffffff;
+}
+
+.heading{
+    text-align: center;
+    color: black;
+    
+}
+/*
+responsive de quelque element
+*/
+@media screen and (max-width: 1000px){
+    #open_modal{
+    display: none;
+}
+}
+@media screen and (max-width: 800px){
+    .title,.subtitle{
+    display: none;
+}
+}
+
+@media screen and (max-width: 720px){
+    .header .header-menu{
+    display: none;
+}
+}
+.navbar-end{
+    margin-right: -20px;
+    margin-left: 550px;
+    position: fixed;
+    
+}
+ .nabar-item{
+     color: #ffffff;
+ } 
+ @media screen and (max-width: 720px) {
+    .navbar-item{
+        color: #ffffff;
+      
+   
+}
+}  
+@media screen {
+    .navbar-end{
+    display: none;
+}
+}
+@media screen and (max-width: 720px){
+    .navbar-end{
+    display: inherit;
+}
+}
+@media screen and (max-width: 670px){
+    .navbar-end{
+    display: none;
+}
+}
+.navbar-primary{
+    color:rgb(0, 0, 68)
+}
+#cr7{
+margin-left: 32%;
+}
+@media screen and (max-width: 670px){
+    .header-logo{
+    position: fixed;
+    top: 20px;
+   
+    left: 150px;
+}
+}
+
+@media screen and (max-width: 670px){
+    .header-logo{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        float: center;
+        top: 20px;
+    }
+}
+
+
+
+
